@@ -1,0 +1,164 @@
+/* ============================ IMPORTS =======================================*/
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@400;700&display=swap');
+
+
+/* ============================ ROOT ======================================= */
+ 
+:root {
+
+  /*  Cores */
+ --cor-primaria : #03A9F4;
+ --cor-sub-titulo : #4F4F4F;
+ --cor-titulo : #000000;
+ --cor-texto-botao : #707070;
+ 
+ /* Fontes */
+  --fonte-primaria : 'Khula', sans-serif;
+
+}
+
+/* ============================ COFING. GLOBAL ======================================= */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: var(--cor-titulo);
+  font-family: var(--fonte-primaria);
+  font-weight: bold;
+}
+
+.container {
+  margin: auto;
+  width: 1440px;
+}
+
+/* ============================ Sign In ======================================= */
+
+/* ============================ Fundo Sign In ======================================= */
+
+.container_sign_in {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fundo_sign_in {
+  background-image: url('./assets/imagens/tela-sign-in/social-signup-fundo.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  width: 41vw;
+  display: flex;
+  position: relative;
+}
+
+.logo_sign_in {
+  width: 17%;
+  margin-top: 35px;
+  margin-left: 35px;
+  position: absolute;
+}
+
+.box_midias_sign_in {
+  height: 100%;
+  width: 97%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button_box_midias_sign_in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 384px;
+  height: 34px;
+
+  background-color: white;
+  border-radius: 15rem;
+  border: none;
+  cursor: pointer;
+}
+
+.img_midia_social_sign_in {
+  
+  margin-right: 14px;
+  width: 30px;
+  height: 30px;
+}
+
+.texto_midia_social_sign_in {
+  font-family:var(--fonte-primaria);
+  font-weight: 400;
+  color: var(--cor-texto-botao);
+  font-size: 0.938rem;
+}
+
+.button_box_midias_sign_in {
+  margin-bottom: 35px;
+}
+
+/* ============================ Form Sign In ======================================= */
+
+.form_sign_in {
+  width: 77vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_sign_in_titulo {
+ font-size: 2.813rem;
+}
+
+.form_sign_subtitulo {
+  font-family:var(--fonte-primaria);
+  font-size: 1.563rem;
+  color: var(--cor-sub-titulo);
+  font-weight: 400;
+}
+
+.formulario_form_sign_in {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_sign_in_label {
+  font-family:var(--fonte-primaria);
+  font-size: 0.875rem;
+  color: var(--cor-sub-titulo);
+  font-weight: 400;
+}
+
+.form_sign_in_input {
+  border: 1px solid #CACACA;
+  width: 385px;
+  height: 30px;
+  box-shadow: 2px 4px 6px rgba(79, 79, 79, 0.15);
+  border-radius: 2px;
+}
+
+.checkbox_form_sign_in {
+
+}
+
+.button_form_sign_in {
+  
+  /* Botão */
+  width: 384px;
+  height: 34px;
+  border: none;
+  background-color: var(--cor-primaria);
+  box-shadow: 2px 4px 6px rgba(79, 79, 79, 0.15);
+  border-radius: 15px;
+
+  /* Texto */
+  font-family: var(--fonte-primaria);
+  color: white;
+  font-weight: 400;
+}
